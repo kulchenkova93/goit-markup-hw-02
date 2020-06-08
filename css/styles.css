@@ -146,16 +146,45 @@ color: #757575 цвет вторичного текста
 
 /*Button*/
 .button-primary {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--accent-color);
+  color: var(--white-color);
 }
 
 /*Портфолио*/
 
 /*продукция портфолио*/
-.products .product-title {
+.product-name {
+  color: var(--primary-text-color);
+}
+.product-title {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+}
+
+.product-item {
+  color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.9;
+}
+.product-text {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+/*Footer*/
+.adress {
+  background-color: #2f303a;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
+}
+.adress-contact {
+  background-color: #2f303a;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
 }
