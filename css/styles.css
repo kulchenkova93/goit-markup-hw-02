@@ -54,7 +54,7 @@ color: #757575 цвет вторичного текста
 
 /*site nav контакты*/
 .site-nav .mail {
-  color: var(--accent-color);
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -63,7 +63,7 @@ color: #757575 цвет вторичного текста
 
 .mail:hover,
 .mail:focus {
-  color: var(--primary-text-color);
+  color: var(--accent-color);
 }
 .site-nav .phone {
   color: var(--title-text-color);
@@ -74,7 +74,7 @@ color: #757575 цвет вторичного текста
 }
 .phone:hover,
 .phone:focus {
-  color: var(--primary-text-color);
+  color: var(--accent-color);
 }
 
 .item-title {
